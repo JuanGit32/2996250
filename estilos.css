@@ -1,0 +1,165 @@
+/* Reset y configuración global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(64, 66, 66);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contenedor principal */
+  #container {
+    background-color: rgb(102, 214, 241);
+    width: 90%;
+    max-width: 1200px;
+    min-height: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: rgb(57, 59, 59);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Barra de navegación principal */
+  nav {
+    background-color: rgb(63, 221, 241);
+    width: 90%;
+    height: 50px;
+    margin: 0.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Sección para organizar contenidos principales */
+  #sections-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  /* Sección izquierda */
+  section {
+    background-color: rgb(47, 51, 51);
+    flex: 1;
+    min-height: 650px;
+    padding: 1rem;
+  }
+  
+  /* Sección derecha (segunda sección) */
+  #section2 {
+    background-color: rgb(81, 192, 236);
+    flex: 2;
+    min-height: 650px;
+    padding: 1rem;
+  }
+  
+  /* Área de artículos */
+  article {
+    background-color: rgb(77, 81, 82);
+    width: 100%;
+    min-height: 200px;
+    margin: 2rem 0;
+    padding: 1rem;
+  }
+  
+  /* Área lateral (aside) */
+  aside {
+    background-color: rgb(86, 191, 240);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+  
+  /* Encabezados adicionales */
+  #header2,
+  #header3,
+  #header4 {
+    background-color: rgb(76, 82, 85);
+    width: 95%;
+    height: 50px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 104, 90);
+  }
+  
+  /* Divs internos */
+  #div1,
+  #div2 {
+    background-color: rgb(76, 78, 78);
+    width: 50%;
+    height: 40px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 71, 71);
+  }
+  
+  /* Bloques de párrafo */
+  p,
+  #p2 {
+    background-color: rgb(49, 50, 51);
+    width: 95%;
+    height: 40px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Footer principal */
+  footer {
+    background-color: rgb(97, 196, 241);
+    width: 100%;
+    height: 60px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Footer secundario */
+  #footer2 {
+    background-color: rgb(68, 71, 71);
+    width: 100%;
+    height: 40px;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Tipografía */
+  h1 {
+    color: rgb(76, 214, 248);
+    margin-bottom: 1rem;
+  }
+  
+  .text2 {
+    color: rgb(60, 62, 63);
+    font-size: 100px;
+  }
+  
+  #text02 {
+    color: rgb(57, 194, 187);
+  }
+  
